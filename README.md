@@ -39,13 +39,15 @@ The script uses threading to perform file hashing concurrently with image proces
 
    *   **Windows:** Download the installer from the [Tesseract at UB Mannheim page](https://github.com/UB-Mannheim/tesseract/wiki). During installation, ensure you select to install language data (e.g., English) and add Tesseract to your system PATH.
    *   **Linux (Debian/Ubuntu):**
-      ```
+   * 
+      ```bash
       sudo apt update
       sudo apt install tesseract-ocr tesseract-ocr-eng # For English
       ```
       (Replace `tesseract-ocr-eng` with other language packs as needed, e.g., `tesseract-ocr-deu` for German).
    *   **macOS:**
-      ```
+   * 
+      ```bash
       brew install tesseract
       ```
 
@@ -53,11 +55,13 @@ The script uses threading to perform file hashing concurrently with image proces
    The `python-magic` library provides more accurate MIME type detection and relies on the `libmagic` C library.
 
    *   **Linux (Debian/Ubuntu):**
-      ```
+   * 
+      ```bash
       sudo apt install libmagic1
       ```
    *   **macOS:**
-      ```
+   * 
+      ```bash
       brew install libmagic
       ```
    *   **Windows:** The `python-magic-bin` package (installed via pip below) often bundles the necessary DLLs.
