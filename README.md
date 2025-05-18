@@ -146,4 +146,4 @@ This script is for informational and educational purposes. While it attempts to 
 
 ## License
 
-This project is open source. Please feel free to use, modify, and distribute. (Consider adding a specific license like MIT or GPL if you wish).
+This project is open source. Please feel free to use, modify, and distribute.
